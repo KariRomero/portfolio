@@ -4,6 +4,7 @@ import Proyectos from './components/Pages/Proyectos';
 import Contacto from './components/Pages/Contacto';
 import SobreMi from './components/Pages/SobreMi';
 import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
 
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
     <div>
 
       <NavBar/>
+      <Footer/>
 
       <Routes>
         <Route path='/' element={<Inicio/>}/>
