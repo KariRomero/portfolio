@@ -4,7 +4,7 @@ import './Avatar.css'; // Importa el archivo CSS donde definiremos las animacion
 
 const Avatar = () => {
     return (
-        <img alt='mi avatar' src={Avatar3} className='rounded-full bg-beige shadow-2xl hover-spin'/>
+        <img alt='mi avatar' src={Avatar3} className='rounded-full bg-beige shadow-xl hover-spin'/>
     );
 };
 

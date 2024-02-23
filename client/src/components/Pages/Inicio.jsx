@@ -3,7 +3,7 @@ import ProyectosCards from "../Cards/ProyectosCards";
 
 const Inicio =()=>{
     return(
-        <div className="my-40 mx-36">
+        <div className="my-32 mx-36">
             <Encabezado/>                      
             <ProyectosCards/>
             
