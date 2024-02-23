@@ -2,9 +2,10 @@ import ProyectoCard from "../Card/ProyectoCard";
 
 const ProyectosCards =()=>{
     return(
-        <div>
+        <section>
+            <h1 className="tracking-widest">MIS PROYECTOS</h1>
 
-        </div>
+        </section>
     )
 };
 

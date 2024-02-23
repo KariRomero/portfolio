@@ -8,7 +8,8 @@ export default {
     colors:{
       'beige':'#f7dea8',      
       'green':'#e8e490',
-      'blue':'#5b88a5'
+      'blue':'#5b88a5',
+      'white':'#fafaf9',
     },
     extend: {},
   },
