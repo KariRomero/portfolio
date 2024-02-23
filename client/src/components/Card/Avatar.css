@@ -1,0 +1,12 @@
+.hover-spin:hover {
+    animation: spin 1s linear infinite; /* Aplica la animación 'spin' cuando se hace hover */
+}
+
+@keyframes spin {
+    from {
+        transform: rotateY(0deg); /* Comienza la rotación desde 0 grados */
+    }
+    to {
+        transform: rotateY(360deg); /* Termina la rotación en 360 grados */
+    }
+}
