@@ -16,14 +16,14 @@ const ProyectosCards =()=>{
     ];
 
     return(
-        <section>
+        <section className="pb-40">
             <h1 className="tracking-widest mb-6 font-semibold">MIS PROYECTOS</h1>
 
             <div className="flex justify-between h-96">
             {
                 proyectos && proyectos.map((p)=>(
                     <ProyectoCard
-                    id={p.id}
+                    key={p.id}
                     image={p.image}
                     title={p.title}
                     description={p.description}

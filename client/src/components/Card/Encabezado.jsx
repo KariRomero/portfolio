@@ -3,7 +3,7 @@ import DescargaCv from "../Buttons/DescargaCv";
 
 const Encabezado = () => {
     return (
-        <section className="flex justify-between items-center mb-20 pb-20">
+        <section className="flex justify-between items-center pt-32 pb-40">
             <div className="flex items-center">
                 <Avatar />
                 <div className="ml-4">

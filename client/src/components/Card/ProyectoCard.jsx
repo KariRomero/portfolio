@@ -1,4 +1,4 @@
-const ProyectoCard = ({id, image, title, description})=>{
+const ProyectoCard = ({image, title, description})=>{
     return(
                 
         <div className="w-1/2 h-full rounded-lg shadow-lg text-left mx-6">        

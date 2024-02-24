@@ -1,8 +1,19 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 const Contacto = ()=>{
+
+    const handleClick=()=>{
+
+    };
+
     return(
-        <div className="mt-16">
-            Estoy en contacto
-        </div>
+        <section className="pb-20">
+            <p onClick={handleClick} className="text-base leading-relaxed text-center hover:text-blue hover:font-bold">
+            Escribime, me encantaría que trabajemos juntos! <FontAwesomeIcon icon={faEnvelope} size="lg" style={{color: "#5b88a5",}} />
+            </p>
+            
+        </section>
     )
 };
 
