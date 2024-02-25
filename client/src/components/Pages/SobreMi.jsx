@@ -1,6 +1,6 @@
 const SobreMi=({ refSobreMi })=>{
     return(
-        <section className="pb-14" ref={refSobreMi}>
+        <section ref={refSobreMi}>
 
             <h1 className="tracking-widest mb-6 font-semibold">ME PRESENTO</h1>
             <p className="text-base leading-relaxed text-left">Me considero una persona curiosa, siempre en un constante proceso de aprendizaje y evolución. 

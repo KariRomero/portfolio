@@ -16,7 +16,8 @@ const ProyectosCards =({refProyectos})=>{
     ];
 
     return(
-        <section className="pb-40 bg-beige" ref={refProyectos}>
+        <section>
+            <div className="pt-32 " ref={refProyectos}></div>
             <h1 className="tracking-widest mb-6 font-semibold">MIS PROYECTOS</h1>
 
             <div className="flex justify-between h-96" >

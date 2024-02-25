@@ -7,7 +7,7 @@ import TopButton from "../Buttons/topButton";
 
 const Inicio = ({ refInicio,refProyectos,refSobreMi,refContacto })=>{
     return(
-        <div className="mx-36">
+        <div className="grid grid-cols-1 gap-10 mx-36">
             <Encabezado refInicio={refInicio} />                      
             <ProyectosCards refProyectos={refProyectos} />
             <SobreMi refSobreMi={refSobreMi} />
