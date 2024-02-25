@@ -2,6 +2,7 @@ import Encabezado from "../Card/Encabezado";
 import ProyectosCards from "../Cards/ProyectosCards";
 import SobreMi from "./SobreMi";
 import Contacto from "./Contacto";
+import TopButton from "../Buttons/topButton";
 
 const Inicio =()=>{
     return(
@@ -10,6 +11,7 @@ const Inicio =()=>{
             <ProyectosCards/>
             <SobreMi/>
             <Contacto/>
+            <TopButton/>           
             
         </div>
     )
