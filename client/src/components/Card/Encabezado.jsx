@@ -1,9 +1,9 @@
 import Avatar from "./Avatar";
 import DescargaCv from "../Buttons/DescargaCv";
 
-const Encabezado = () => {
+const Encabezado = ({ refInicio }) => {
     return (
-        <section className="flex justify-between items-center pt-32 pb-40">
+        <section className="flex justify-between items-center pt-32 pb-40" ref={refInicio}>
             <div className="flex items-center">
                 <Avatar />
                 <div className="ml-4">

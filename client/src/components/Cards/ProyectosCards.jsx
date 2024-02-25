@@ -1,6 +1,6 @@
 import ProyectoCard from "../Card/ProyectoCard";
 
-const ProyectosCards =()=>{
+const ProyectosCards =({refProyectos})=>{
 
     const proyectos=[
         {id:1,
@@ -16,10 +16,10 @@ const ProyectosCards =()=>{
     ];
 
     return(
-        <section className="pb-40">
+        <section className="pb-40 bg-beige" ref={refProyectos}>
             <h1 className="tracking-widest mb-6 font-semibold">MIS PROYECTOS</h1>
 
-            <div className="flex justify-between h-96">
+            <div className="flex justify-between h-96" >
             {
                 proyectos && proyectos.map((p)=>(
                     <ProyectoCard

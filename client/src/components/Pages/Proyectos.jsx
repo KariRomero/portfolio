@@ -1,7 +1,9 @@
-const Proyectos=()=>{
+import ProyectosCards from "../Cards/ProyectosCards";
+
+const Proyectos=({ref})=>{
     return(
         <div className="mt-16">
-            estoy en proyectos
+            <ProyectosCards ref={ref}/>
         </div>
     )
 };
