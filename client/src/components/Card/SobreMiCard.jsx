@@ -1,4 +1,4 @@
-const SobreMi=({ refSobreMi })=>{
+const SobreMiCard=({ refSobreMi })=>{
     return(
         <section ref={refSobreMi}>
 
@@ -12,4 +12,4 @@ const SobreMi=({ refSobreMi })=>{
     )
 };
 
-export default SobreMi;
+export default SobreMiCard;

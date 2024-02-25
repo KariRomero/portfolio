@@ -1,9 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { useRef } from "react";
 import Inicio from "./components/Pages/Inicio";
-import Proyectos from './components/Pages/Proyectos';
-import Contacto from './components/Pages/Contacto';
-import SobreMi from './components/Pages/SobreMi';
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 

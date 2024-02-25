@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import MailButton from "../Buttons/MailButton";
 
-const Contacto = ({ refContacto })=>{
+const ContactoCard=({ refContacto })=>{
     return(
         <section className="pb-20" ref={refContacto}>
             <p className="text-base leading-relaxed text-center hover:text-blue hover:font-bold">
@@ -14,4 +14,4 @@ const Contacto = ({ refContacto })=>{
     )
 };
 
-export default Contacto;
+export default ContactoCard;

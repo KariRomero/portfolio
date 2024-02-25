@@ -1,8 +1,8 @@
 import React from "react";
 import Encabezado from "../Card/Encabezado";
 import ProyectosCards from "../Cards/ProyectosCards";
-import SobreMi from "./SobreMi";
-import Contacto from "./Contacto";
+import ContactoCard from "../Card/ContactoCard";
+import SobreMiCard from "../Card/SobreMiCard";
 import TopButton from "../Buttons/topButton";
 
 const Inicio = ({ refInicio,refProyectos,refSobreMi,refContacto })=>{
@@ -10,8 +10,8 @@ const Inicio = ({ refInicio,refProyectos,refSobreMi,refContacto })=>{
         <div className="grid grid-cols-1 gap-10 mx-36">
             <Encabezado refInicio={refInicio} />                      
             <ProyectosCards refProyectos={refProyectos} />
-            <SobreMi refSobreMi={refSobreMi} />
-            <Contacto refContacto={refContacto} />
+            <SobreMiCard refSobreMi={refSobreMi} />
+            <ContactoCard refContacto={refContacto} />
             <TopButton/>           
             
         </div>
