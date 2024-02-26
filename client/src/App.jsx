@@ -16,26 +16,22 @@ function App() {
 
   const handleClickInicio=()=>{
     refInicio.current?.scrollIntoView({ behavior:'smooth' });
-    setSelectedButton('inicio')
-    console.log('click InicioButton');
+    setSelectedButton('inicio');
   };
 
   const handleClickProyectos=()=>{
     refProyectos.current?.scrollIntoView({ behavior:'smooth' });
-    setSelectedButton('proyectos')
-    console.log('click MisProyectosButton');
+    setSelectedButton('proyectos');
   };
 
   const handleClickSobreMi=()=>{
     refSobreMi.current?.scrollIntoView({ behavior:'smooth' });
-    setSelectedButton('sobreMi')
-    console.log('click SobreMiButton');
+    setSelectedButton('sobreMi');
   };
 
   const handleClickContacto=()=>{
     refContacto.current?.scrollIntoView({ behavior:'smooth' });
-    setSelectedButton('contacto')
-    console.log('click ContactoButton');
+    setSelectedButton('contacto');
   };
 
 

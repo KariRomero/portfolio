@@ -5,12 +5,12 @@ const ProyectosCards =({refProyectos})=>{
     const proyectos=[
         {id:1,
         image:'https://static.nationalgeographic.es/files/styles/image_3200/public/75552.ngsversion.1422285553360.webp?w=1450&h=967',
-        title:'Gatos',
+        title:'E-commerce',
         description:'Breve descripción del proyecto'
         },
         {id:2,
          image:'https://fielpet.com.ar/blog/content/images/size/w2000/2021/02/Hisotoria-de-los-gatos.jpg',
-         title:'Gatos 2',
+         title:'VideogamesApp',
          description:'Breve descripción del proyecto'         
         },
     ];
