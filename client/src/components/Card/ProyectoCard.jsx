@@ -9,7 +9,7 @@ const ProyectoCard = ({image, title, description, gitHub, deploy})=>{
           
             <img className="rounded-t-lg w-full h-3/4 transition duration-300 ease-in-out hover:scale-105" src={image} alt={title} />
 
-            <div className=" h-1/4 transition duration-300 hover:-translate-y-56">              
+            <div className=" h-1/4 transition duration-300 hover:-translate-y-56 bg-white">              
 
                 <div className="my-2  h-64 bg-white">
                     <a href={deploy} target="_blank">
