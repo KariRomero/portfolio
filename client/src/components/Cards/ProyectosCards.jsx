@@ -1,19 +1,7 @@
 import ProyectoCard from "../Card/ProyectoCard";
+import proyectos from '../Card/Proyectos'
 
-const ProyectosCards =({refProyectos})=>{
-
-    const proyectos=[
-        {id:1,
-        image:'https://static.nationalgeographic.es/files/styles/image_3200/public/75552.ngsversion.1422285553360.webp?w=1450&h=967',
-        title:'E-commerce',
-        description:'Breve descripción del proyecto'
-        },
-        {id:2,
-         image:'https://fielpet.com.ar/blog/content/images/size/w2000/2021/02/Hisotoria-de-los-gatos.jpg',
-         title:'VideogamesApp',
-         description:'Breve descripción del proyecto'         
-        },
-    ];
+const ProyectosCards =({refProyectos})=>{    
 
     return(
         <section>
@@ -28,6 +16,8 @@ const ProyectosCards =({refProyectos})=>{
                     image={p.image}
                     title={p.title}
                     description={p.description}
+                    gitHub={p.gitHub}
+                    deploy={p.deploy}
                     />
                 ))
             }

@@ -1,5 +1,6 @@
 const MailButton = () => {
     async function handleClick() {
+        
         const emailAddress = document.getElementById('email-address').innerText;
         try {
             await navigator.clipboard.writeText(emailAddress);
