@@ -8,6 +8,7 @@ import './App.css';
 
 function App() {
   const [selectedButton, setSelectedButton] = useState('');
+  const [language, setLanguage] = useState('Es');
 
   const refInicio=useRef(null);
   const refProyectos=useRef(null);
@@ -34,6 +35,16 @@ function App() {
     setSelectedButton('contacto');
   };
 
+  const handleClickEs=()=>{    
+    setLanguage('Es')
+    console.log(language);;
+  };
+
+  const handleClickEn=()=>{
+    setLanguage('En');
+    console.log(language);
+  };
+
 
   return (
     <div>
@@ -43,7 +54,10 @@ function App() {
       handleClickProyectos={handleClickProyectos} 
       handleClickSobreMi={handleClickSobreMi} 
       handleClickContacto={handleClickContacto}
+      handleClickEn={handleClickEn}
+      handleClickEs={handleClickEs}
       selected={selectedButton}
+      selectedLanguage={language}
       />
       <Footer/>
 
@@ -52,7 +66,10 @@ function App() {
         refInicio={refInicio} 
         refProyectos={refProyectos} 
         refSobreMi={refSobreMi} 
-        refContacto={refContacto}/>}/>
+        refContacto={refContacto}
+        selectedLanguage={language}
+        />}        
+        />
       </Routes>
       
     </div>
