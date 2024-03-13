@@ -8,7 +8,7 @@ const DescargaCv=({ selectedLanguage })=>{
             href={selectedLanguage === 'Es' ? 'src/assets/CV-RomeroKarina.pdf' : 'src/assets/Resume-RomeroKarina.pdf'} 
             download={selectedLanguage === 'Es' ? 'Cv-RomeroKarina' : 'Resume-RomeroKarina'}>
                 {
-                    selectedLanguage === 'Es' ? 'Descarga mi Cv' : 'Download my resume'
+                    selectedLanguage === 'Es' ? 'Descarga mi Cv ' : 'Download my resume '
                 }
              <FontAwesomeIcon icon={faCircleDown} size="lg" style={{color: "#5b88a5",}} />
             </a>            
