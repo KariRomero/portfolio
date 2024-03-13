@@ -37,12 +37,10 @@ function App() {
 
   const handleClickEs=()=>{    
     setLanguage('Es')
-    console.log(language);;
   };
 
   const handleClickEn=()=>{
     setLanguage('En');
-    console.log(language);
   };
 
 
