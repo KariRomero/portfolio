@@ -1,5 +1,5 @@
 import ProyectoCard from "../Card/ProyectoCard";
-import proyectos from "../Card/proyectos";
+import proyectos from "../Card/ProjectsEs";
 import projects from "../Card/Projects";
 
 const ProyectosCards =({ refProyectos, selectedLanguage })=>{    
