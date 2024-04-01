@@ -12,7 +12,7 @@ const NavBar = ({ selected,selectedLanguage,handleClickInicio, handleClickProyec
         },
         {
             nombre:"PROYECTOS",
-            name:"MY PROJECTS",
+            name:"MY WORK",
             handleClick: handleClickProyectos,
             isSelected:selected === 'proyectos'
         },
@@ -48,10 +48,12 @@ const NavBar = ({ selected,selectedLanguage,handleClickInicio, handleClickProyec
         localStorage.getItem('theme') ? localStorage.getItem('theme') :
         'light'
     );
-
+    
     const toggleMenu = ()=>{
         setShowMenu(!showMenu);
     }
+
+    
 
     useEffect(()=>{
         if(theme === 'dark'){
