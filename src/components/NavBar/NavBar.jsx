@@ -156,8 +156,8 @@ const NavBar = ({ selected,selectedLanguage,handleClickInicio, handleClickProyec
                                         <button 
                                         key={menu.nombre}
                                         onClick={menu.handleClick}
-                                        className={`text-xs ${
-                                            menu.isSelected ? 'text-blue' : ''
+                                        className={`text-xs dark:text-white ${
+                                            menu.isSelected ? 'bg-blue' : ''
                                         }`}
                                         >
                                             {selectedLanguage === 'Es' ? menu.nombre : menu.name}
