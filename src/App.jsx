@@ -18,10 +18,7 @@ function App() {
   const refSobreMi=useRef(null);
   const refContacto=useRef(null);
 
-//   const [language, setLanguage] = useState(
-//     localStorage.getItem('language') ? localStorage.getItem('language') :
-//     'Es'        
-// )
+
 useEffect(()=>{
     if(language === 'En'){
         document.documentElement.classList.add('En');
