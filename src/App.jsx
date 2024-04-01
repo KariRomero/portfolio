@@ -51,13 +51,14 @@ function App() {
       handleClickInicio={handleClickInicio} 
       handleClickProyectos={handleClickProyectos} 
       handleClickSobreMi={handleClickSobreMi} 
-      handleClickContacto={handleClickContacto}
+      handleClickContacto={handleClickContacto}     
       handleClickEn={handleClickEn}
       handleClickEs={handleClickEs}
       selected={selectedButton}
       selectedLanguage={language}
       />
-      <Footer/>
+
+ 
 
       <Routes>
         <Route path='/' element={<Inicio 

@@ -1,15 +1,22 @@
-import GithubButton from "../Buttons/GithtubButton";
-import LinkedInButton from "../Buttons/LinkedInButton";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 const Footer =()=>{
-    return(
-        <div className="fixed bottom-0 left-0 w-full bg-white py-2">
+    return(   
+        <div className="absolute inset-x-0 overflow-hidden py-2">
             <div className="flex justify-center">
-            <GithubButton/>
-            <LinkedInButton/>
+                <div className='ml-4'>
+                    <a href='https://github.com/KariRomero' target='_blank'>
+                    <FontAwesomeIcon icon={faGithub} beatFade size="2xl" style={{color: "#76ABAE",}}/>
+                    </a>            
+                </div>
 
-            </div>
-            
+                <div className='ml-4'>
+                    <a href='https://www.linkedin.com/in/karinaromero-fullstack/' target='_blank'>
+                    <FontAwesomeIcon icon={faLinkedin} beatFade size="2xl" style={{color: "#76ABAE",}} />
+                    </a>                        
+                </div>
+            </div>            
         </div>
     )
 };

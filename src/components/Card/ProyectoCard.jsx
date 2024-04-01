@@ -5,7 +5,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const ProyectoCard = ({ image, title, description, gitHub, deploy, selectedLanguage })=>{
     return(
                 
-        <div className="w-1/2 h-full rounded-lg shadow-lg text-left overflow-hidden bg-white mx-1">              
+        <div className="rounded-lg shadow-lg text-left overflow-hidden bg-white mx-1">              
           
             <img className="rounded-t-lg w-full h-3/4 transition duration-300 ease-in-out hover:scale-105" src={image} alt={title} />
 

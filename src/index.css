@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .menu-btn{
+        @apply  
+        font-medium 
+        text-base 
+        tracking-widest 
+        px-5 
+        py-2.5 
+        me-2 
+        mb-4 
+        mt-4        
+    };
+    .menu-selected{
+        @apply 
+        text-blue 
+        font-medium 
+        text-base 
+        tracking-widest 
+        px-5 
+        py-2.5 
+        me-2 
+        mb-4 
+        mt-4
+    }
+}
